@@ -1,0 +1,1 @@
+Hello! This is a project to understand git more deeply! :)
