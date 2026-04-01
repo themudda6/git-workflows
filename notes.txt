@@ -6,4 +6,3 @@ This is from the main and feature branch.
 Let's squash the beef!
 Now let's braise it!
 Now let's serve it!
-Oh no the beef has gone bad!
