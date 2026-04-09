@@ -44,6 +44,7 @@ sudo systemctl status nginx
 - Fixed using:
 chmod 400 nginx-key.pem
 ```
+
 🌐 Cloudflare 522 Error
 - Issue: Domain not loading when proxy enabled
 - Cause: Cloudflare could not reach EC2
@@ -56,7 +57,8 @@ chmod 400 nginx-key.pem
 - EC2 serves HTTP by default
 - Cloudflare handles HTTPS encryption
 
-📸 Screenshots
+
+## 📸 Screenshots
 
 ### EC2 Instance
 ![EC2](networking/screenshots/ec2.png)
@@ -80,6 +82,6 @@ chmod 400 nginx-key.pem
 - Debugged real-world networking issues
 - Learned how Cloudflare acts as a reverse proxy
 
-🔗 Live Site
+## 🔗 Live Site
 
 https://mud-as-sir.uk
