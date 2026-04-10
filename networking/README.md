@@ -2,7 +2,7 @@
 
 ## 📌 Project Overview
 
-This project demonstrates how I was able deploy a web server on AWS EC2, configure NGINX, and connect a custom domain using Cloudflare with HTTPS enabled.
+This project simulates a real-world production-style deployment using AWS, demonstrating how networking, DNS, and web servers interact.
 
 The goal was to understand how networking components work together in a real-world setup.
 
@@ -85,3 +85,17 @@ chmod 400 nginx-key.pem
 ## 🔗 Live Site
 
 https://mud-as-sir.uk
+
+## 🌐 Live Infrastructure
+
+- Root Domain: https://mud-as-sir.uk
+- Subdomain: https://nginx.mud-as-sir.uk
+
+## 🧠 What This Project Demonstrates
+
+- DNS resolution (domain → IP)
+- Reverse proxy behaviour (Cloudflare)
+- HTTP vs HTTPS handling
+- Linux server management (NGINX)
+- Infrastructure stability using Elastic IP
+- Debugging real-world issues (SSH, permissions, timeouts)
