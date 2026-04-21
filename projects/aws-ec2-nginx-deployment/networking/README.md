@@ -61,19 +61,20 @@ chmod 400 nginx-key.pem
 ## 📸 Screenshots
 
 ### EC2 Instance
-![EC2](https://raw.githubusercontent.com/TheMudda6/git-Mudda/main/networking/screenshots/ec2.png)
+
+![EC2](./screenshots/ec2.png)
 
 ### Security Group
-![Security Group](https://raw.githubusercontent.com/TheMudda6/git-Mudda/main/networking/screenshots/security-group.png)
+![Security Group](./screenshots/security-group.png)
 
 ### Cloudflare DNS
-![DNS](https://raw.githubusercontent.com/TheMudda6/git-Mudda/main/networking/screenshots/dns.png)
+![DNS](./screenshots/dns.png)
 
 ### Live Website
-![Website](https://raw.githubusercontent.com/TheMudda6/git-Mudda/main/networking/screenshots/website.png)
+![Website](./screenshots/website.png)
 
 ### NGINX Status
-![NGINX](https://raw.githubusercontent.com/TheMudda6/git-Mudda/main/networking/screenshots/nginx-status.png)
+![NGINX](./screenshots/nginx.png)
 
 🎯 Key Takeaways
 - Learned how DNS resolves domains to IP addresses
