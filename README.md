@@ -1,6 +1,6 @@
-# 🚀 AWS EC2 + NGINX + Custom Domain Deployment
+# AWS EC2 + NGINX + Custom Domain Deployment
 
-## 📌 Project Overview
+## Project Overview
 
 This project demonstrates how I was able deploy a web server on AWS EC2, configure NGINX, and connect a custom domain using Cloudflare with HTTPS enabled.
 
@@ -8,13 +8,13 @@ The goal was to understand how networking components work together in a real-wor
 
 ---
 
-## 🧠 Architecture
+## Architecture
 
 Browser → Cloudflare (HTTPS) → EC2 (HTTP) → NGINX → Response
 
 ---
 
-## ⚙️ What I Built
+## What I Built
 
 - Launched an EC2 instance (Amazon Linux 2023)  
 - Connected via SSH using a `.pem` private key  
@@ -25,7 +25,7 @@ Browser → Cloudflare (HTTPS) → EC2 (HTTP) → NGINX → Response
 
 ---
 
-## 🧪 Commands Used
+## Commands Used
 
 ```bash
 ssh -i nginx-key.pem ec2-user@<ip>
@@ -36,15 +36,15 @@ sudo systemctl status nginx
 
 ```
 
-🚧 Challenges & Solutions
+Challenges & Solutions
 
-🔐 SSH Permission Issue
+SSH Permission Issue
 ```
 - Private key permissions too open
 - Fixed using:
 chmod 400 nginx-key.pem
 ```
-🌐 Cloudflare 522 Error
+Cloudflare 522 Error
 - Issue: Domain not loading when proxy enabled
 - Cause: Cloudflare could not reach EC2
 - Fix:
@@ -52,7 +52,7 @@ chmod 400 nginx-key.pem
 - Ensured correct public IP
 - Set SSL mode to Flexible
 
-🔒 HTTP vs HTTPS
+HTTP vs HTTPS
 - EC2 serves HTTP by default
 - Cloudflare handles HTTPS encryption
 
@@ -73,7 +73,7 @@ chmod 400 nginx-key.pem
 ### NGINX Status
 ![NGINX](networking/screenshots/nginx-status.png)
 
-🎯 Key Takeaways
+Key Takeaways
 - Learned how DNS resolves domains to IP addresses
 - Understood how HTTP traffic reaches a server
 - Gained Linux server management experience
